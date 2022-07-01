@@ -1,5 +1,5 @@
 upload:
-	scp *.md erock@prose.sh:
+	scp -i ~/.ssh/id_ed25519 *.md erock@prose.sh:
 .PHONY: upload
 
 upload-local:
@@ -7,9 +7,9 @@ upload-local:
 .PHONY: upload-local
 
 ssh-local:
-	ssh -p 2222 erock@localhost
+	ssh -i ~/.ssh/id_ed25519 -p 2222 erock@localhost
 .PHONY: ssh-local
 
 ssh:
-	ssh erock@prose.sh
+	ssh -i ~/.ssh/id_ed25519 erock@prose.sh
 .PHONY: ssh
