@@ -2,9 +2,9 @@
 description: something something darkside
 nav:
   website: "https://erock.io"
-  mastodon: "https://fosstodon.org/@erock"
+  sr.ht: "https://sr.ht/~erock"
   github: "https://github.com/neurosnap"
-  repo: "https://github.com/neurosnap/prose-blog"
+  repo: "https://sr.ht/~erock/prose-blog"
 ---
 
 # Hi I'm Eric Bower.
